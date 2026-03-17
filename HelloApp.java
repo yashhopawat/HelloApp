@@ -3,11 +3,11 @@ public class HelloApp {
 
         String name;
 
-        // If user gives input, use it
+        
         if (args.length > 0) {
             name = args[0];
         } else {
-            name = "World"; // default value
+            name = "World";
         }
 
         System.out.println("Hello " + name);
