@@ -1,11 +1,16 @@
 public class HelloApp {
     public static void main(String[] args) {
 
-        // Check if user provided name
+        String name;
+
+        // If user gives input, use it
         if (args.length > 0) {
-            System.out.println("Hello " + args[0]);
+            name = args[0];
         } else {
-            System.out.println("Hello World");
+            name = "World"; // default value
         }
-    }
+
+        System.out.println("Hello " + name);
+}}
+
 }
